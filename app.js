@@ -25,9 +25,9 @@ app.get('/', (req, res) => {
         const changeText = $('div[data-bn-type="text"]').eq(11).html();
         const dateText = $('div[data-bn-type="text"]').eq(8).html();
 
-        price.each (function() {
-            // console.log($(this).html());
-        })
+        // price.each (function() {
+        //     console.log($(this).html());
+        // })
         // Создаем объект с данными для отправки в формате JSON
         const data = {
           priceTitle,
